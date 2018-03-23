@@ -80,7 +80,6 @@ end
 # Displays a message based on the number of points that the player got, then
 # displays a thank you message to the player. Uses the player's name and score
 # in the text
-end
 public
 def party(points, name)
   puts "-----------------------------------------------------------------------"
@@ -89,23 +88,23 @@ def party(points, name)
     puts "You call that a guest list? You didn't realize that the food would"
     puts "be gone so quickly, almost as quickly as those you tried to invite."
     puts "Maybe you shouldn't ever throw an undead party ever again..."
-  elsif points >= 6 && points =< 10
+  elsif points >= 6 && points <= 10
     puts "You had a few friends show up. They had some food, but it still"
     puts "lacked some substance to the whole party. The zombies enjoyed the"
     puts "food, but there just was something missing from this. Maybe there's"
     puts "something that can be done to spice up the party..."
-  elsif points >= 11 && points =< 15
+  elsif points >= 11 && points <= 15
     puts "This party was just like so many parties. Fun, enjoyable, and a good"
     puts "way to burn some time. An excuse to get together with some friends"
     puts "and have a little bit of fun. The guests shamble off, happy they came,"
     puts "but returning once again to their gloomy, undead lives..."
-  elsif points >= 16 && points =< 20
+  elsif points >= 16 && points <= 20
     puts "Bill and Ted would be proud, whoever they were. You're party filled "
     puts "their timeless 'excellent' mantra. Good food, good company, and each"
     puts "guest left smiling. Being undead does have some downsides, but it's"
     puts "not too bad when you've made some new friends to help you get through"
     puts "the cloudy days..."
-  elsif points >= 21 && points =< 24
+  elsif points >= 21 && points <= 24
     puts "Food, games, moans, what more could a zombie want? So many new faces,"
     puts "new stories, new friends. You're definitely going to be the block"
     puts "party planner now. With how much everyone's going to talk about this"

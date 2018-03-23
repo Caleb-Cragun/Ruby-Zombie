@@ -1,5 +1,5 @@
-require "./resources.rb"
-require "./paths.rb"
+require "./resources"
+require "./paths"
 
 # Prompts the user for their name
 print "What is your name: "
